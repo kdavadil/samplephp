@@ -62,9 +62,9 @@
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
 						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="about.html">Story</a></li>
+						<li><a href="#fh5co-couple-story">Our Story</a></li>
 						<li class="has-dropdown">
-							<a href="services.html">Services</a>
+							<a href="services.html">Event Details</a>
 							<ul class="dropdown">
 								<li><a href="#">Web Design</a></li>
 								<li><a href="#">eCommerce</a></li>
@@ -81,7 +81,7 @@
 								<li><a href="#">jQuery</a></li>
 							</ul>
 						</li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="#app">RSVP</a></li>
 					</ul>
 				</div>
 			</div>
@@ -592,6 +592,7 @@
 	<script src="js/simplyCountdown.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<script src="js/custom.js"></script>
 
 	<script>
     // var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
