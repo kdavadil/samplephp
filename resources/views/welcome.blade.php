@@ -9,9 +9,6 @@
 	<title>KenAndBianxWedding</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
-
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
@@ -166,8 +163,8 @@
 									</div>
 									<div class="event-col">
 										<i class="icon-calendar"></i>
-										<span>Monday 28</span>
-										<span>November, 2016</span>
+										<span>Sunday 17th</span>
+										<span>January, 2021</span>
 									</div>
 									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 								</div>
@@ -177,13 +174,13 @@
 									<h3>Wedding Party</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
-										<span>7:00 PM</span>
-										<span>12:00 AM</span>
+										<span>6:00 PM</span>
+										<span>9:00 PM</span>
 									</div>
 									<div class="event-col">
 										<i class="icon-calendar"></i>
-										<span>Monday 28</span>
-										<span>November, 2016</span>
+										<span>Sunday 17th</span>
+										<span>January, 2021</span>
 									</div>
 									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 								</div>
