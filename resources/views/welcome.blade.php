@@ -62,24 +62,18 @@
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
 						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="#fh5co-couple-story">Our Story</a></li>
 						<li class="has-dropdown">
-							<a href="services.html">Event Details</a>
+							<a href="#fh5co-event">Event Details</a>
 							<ul class="dropdown">
-								<li><a href="#">Web Design</a></li>
-								<li><a href="#">eCommerce</a></li>
-								<li><a href="#">Branding</a></li>
-								<li><a href="#">API</a></li>
+								<li><a href="#">Date & Time</a></li>
+								<li><a href="#">Venue</a></li>
+								<li><a href="#">Dress Code</a></li>
+								<li><a href="#">Waze Pin</a></li>
 							</ul>
 						</li>
+						<li><a href="#fh5co-couple-story">Our Story</a></li>
 						<li class="has-dropdown">
-							<a href="gallery.html">Gallery</a>
-							<ul class="dropdown">
-								<li><a href="#">HTML5</a></li>
-								<li><a href="#">CSS3</a></li>
-								<li><a href="#">Sass</a></li>
-								<li><a href="#">jQuery</a></li>
-							</ul>
+							<a href="#gallery">Gallery</a>
 						</li>
 						<li><a href="#app">RSVP</a></li>
 					</ul>
@@ -342,7 +336,7 @@
 		</div>
 	</div>
 
-	<div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/img_bg_5.jpg);">
+	{{-- <div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/img_bg_5.jpg);">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -393,7 +387,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> --}}
 
 	<div id="fh5co-testimonial">
 		<div class="container">
@@ -449,7 +443,7 @@
 		</div>
 	</div>
 
-	<div id="fh5co-services" class="fh5co-section-gray">
+	{{-- <div id="fh5co-services" class="fh5co-section-gray">
 		<div class="container">
 			
 			<div class="row animate-box">
@@ -503,7 +497,7 @@
 
 			
 		</div>
-	</div>
+	</div> --}}
 
 	<div id="app">
 		<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_4.jpg);">
