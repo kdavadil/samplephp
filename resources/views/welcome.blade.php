@@ -107,13 +107,13 @@
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<h2>Hello!</h2>
 					<h3>January 17th, 2021 Los Ba&ntilde;os, Laguna</h3>
-					<p>We invited you to celebrate our wedding</p>
+					<p>We invite you to celebrate our wedding</p>
 				</div>
 			</div>
 			<div class="couple-wrap animate-box">
 				<div class="couple-half">
 					<div class="groom">
-						<img src="images/groom.jpg" alt="groom" class="img-responsive">
+						<img src="images/387065_4125626272691_950988320_n.jpg" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-groom">
 						<h3>Ken Davadilla</h3>
@@ -123,7 +123,7 @@
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
 				<div class="couple-half">
 					<div class="bride">
-						<img src="images/bride.jpg" alt="groom" class="img-responsive">
+						<img src="images/IMG_1418.jpg" alt="bride" class="img-responsive">
 					</div>
 					<div class="desc-bride">
 						<h3>Bianca Dolor</h3>
@@ -152,15 +152,16 @@
 									<h3>Main Ceremony</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
-										<span>4:00 PM</span>
-										<span>6:00 PM</span>
+										<span>4:00 PM - 6:00 PM</span>
 									</div>
 									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>Sunday 17th</span>
-										<span>January, 2021</span>
+										<i class="icon-bell"></i>
+										<span>St. Marc's Chapel PHSA</span>
 									</div>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<div>
+										<img src="images/IMG_2365.jpeg" alt="chapel" class="img-responsive groom img" style="height:180px;width:180px;display:block;margin-left: auto;margin-right: auto;border-radius:50%;">
+									</div>
+									<p style="display:inline-block">Also labeled "Pook Bathala" near the entrance, the chapel is an open space worship area 1.2km away (4min drive) from the National Arts Center gate</p>
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-6 text-center">
@@ -168,15 +169,16 @@
 									<h3>Wedding Party</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
-										<span>6:00 PM</span>
-										<span>9:00 PM</span>
+										<span>6:00 PM - 8:00 PM</span>
 									</div>
 									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>Sunday 17th</span>
-										<span>January, 2021</span>
+										<i class="icon-bell"></i>
+										<span>Bulwagang Sarimanok</span>
 									</div>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<div>
+										<img src="images/IMG_2383.jpeg" alt="groom" class="img-responsive groom img" style="height:180px;width:180px;display:block;margin-left: auto;margin-right: auto;border-radius:50%;">
+									</div>
+									<p style="display:inline-block">A 5min drive from St. Marc’s Chapel, the venue is 1.9km away, with parking available. Surrounded by trees and forest weather, nothing would make you closer to nature.</p>
 								</div>
 							</div>
 						</div>
