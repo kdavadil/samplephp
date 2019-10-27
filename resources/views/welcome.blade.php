@@ -19,6 +19,7 @@
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
+	<meta property="og:image" content="https://github.com/kdavadil/samplephp/blob/master/public/images/IMG_0213.JPG">
 
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
@@ -68,7 +69,7 @@
 								<li><a href="#">Date & Time</a></li>
 								<li><a href="#">Venue</a></li>
 								<li><a href="#">Dress Code</a></li>
-								<li><a href="#">Waze Pin</a></li>
+								<li><a href="https://waze.com/ul/hwdw0w2uzp">Waze Pin</a></li>
 							</ul>
 						</li>
 						<li><a href="#fh5co-couple-story">Our Story</a></li>
