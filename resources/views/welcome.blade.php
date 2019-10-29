@@ -109,7 +109,7 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<h2>Hello!</h2>
-					<h3>January 17th, 2021 - 4PM @ St Marc's Chapel inside PHSA (UPLB Campus) Los Ba&ntilde;os, Laguna</h3>
+					<h3>January 17th, 2021 Sunday- 4PM @ St Marc's Chapel inside PHSA (UPLB Campus) Los Ba&ntilde;os, Laguna</h3>
 					<p>We invite you to celebrate our wedding</p>
 				</div>
 			</div>
@@ -130,7 +130,7 @@
 					</div>
 					<div class="desc-bride">
 						<h3>Bianca Dolor</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+						<p>"In this world of cynics, I can't believe there truly is still forever, a state of mind and soul at peace, with no other than my biggest critic whose opinion matter the most to me. Ken is my person. He's my confidant and partner in crime. I'm his biggest fan. Can't wait to start forever with him. I love you siomai!"</p>
 					</div>
 				</div>
 			</div>
@@ -142,8 +142,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Our Special Events</span>
-					<h2>Wedding Events</h2>
+					<span>Our Special Event</span>
+					<h2>Wedding Details</h2>
 				</div>
 			</div>
 			<div class="row">
