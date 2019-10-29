@@ -10,18 +10,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
   	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
+	<meta property="og:title" content="Wedding-KenAndBianx" />
+	<meta property="og:image" content="https://scontent.fmnl4-4.fna.fbcdn.net/v/t1.0-9/408205_3959642622054_2000316769_n.jpg?_nc_cat=102&cachebreaker=sd&_nc_oc=AQktMhHHVxM-oWwglAaswOTssblDm7eecaKj9-uIlucjNtQofm28uMImiQ9cigpT-og&_nc_ht=scontent.fmnl4-4.fna&oh=d8bf9a777e1bd34d90e0a32bd6d3838d&oe=5E5E93EA">
+	<meta property="og:title" content="Wedding-KenAndBianx" />
+	<meta property="og:image" content="https://scontent.fmnl4-4.fna.fbcdn.net/v/t1.0-9/408205_3959642622054_2000316769_n.jpg?_nc_cat=102&cachebreaker=sd&_nc_oc=AQktMhHHVxM-oWwglAaswOTssblDm7eecaKj9-uIlucjNtQofm28uMImiQ9cigpT-og&_nc_ht=scontent.fmnl4-4.fna&oh=d8bf9a777e1bd34d90e0a32bd6d3838d&oe=5E5E93EA" />
+	<meta property="og:url" content="kenandbianx.net"/>
 	<meta property="og:site_name" content=""/>
 	<meta property="og:description" content=""/>
 	<meta name="twitter:title" content="" />
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
-	<meta property="og:image" content="https://scontent.fmnl4-4.fna.fbcdn.net/v/t1.0-9/408205_3959642622054_2000316769_n.jpg?_nc_cat=102&cachebreaker=sd&_nc_oc=AQktMhHHVxM-oWwglAaswOTssblDm7eecaKj9-uIlucjNtQofm28uMImiQ9cigpT-og&_nc_ht=scontent.fmnl4-4.fna&oh=d8bf9a777e1bd34d90e0a32bd6d3838d&oe=5E5E93EA">
-	<meta property="og:title" content="Wedding-KenAndBianx" />
-<meta property="og:image" content="https://scontent.fmnl4-4.fna.fbcdn.net/v/t1.0-9/408205_3959642622054_2000316769_n.jpg?_nc_cat=102&cachebreaker=sd&_nc_oc=AQktMhHHVxM-oWwglAaswOTssblDm7eecaKj9-uIlucjNtQofm28uMImiQ9cigpT-og&_nc_ht=scontent.fmnl4-4.fna&oh=d8bf9a777e1bd34d90e0a32bd6d3838d&oe=5E5E93EA" />
+	
 
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
