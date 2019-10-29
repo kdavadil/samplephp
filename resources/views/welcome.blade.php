@@ -109,7 +109,7 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<h2>Hello!</h2>
-					<h3>January 17th, 2021 PHSA (UPLB Campus) Los Ba&ntilde;os, Laguna</h3>
+					<h3>January 17th, 2021 - 4PM @ St Marc's Chapel inside PHSA (UPLB Campus) Los Ba&ntilde;os, Laguna</h3>
 					<p>We invite you to celebrate our wedding</p>
 				</div>
 			</div>
@@ -120,7 +120,7 @@
 					</div>
 					<div class="desc-groom">
 						<h3>Ken Davadilla</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+						<p>"I'm blessed to have met my soulmate 12 years ago. She is my worst enemy but also my bestfriend. Excited to spend the rest of my life with bianx and discover the world with her. I love you pretty!"</p>
 					</div>
 				</div>
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
@@ -197,45 +197,45 @@
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<span>We Love Each Other</span>
 					<h2>Our Story</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<p>Let's take a look at how it all began for the two lovebirds. Here's a look at the timeline of their romantic journey ~</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12 col-md-offset-0">
 					<ul class="timeline animate-box">
 						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-1.jpg);"></div>
+							<div class="timeline-badge" style="background-image:url(images/story1.jpg);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">First We Meet</h3>
-									<span class="date">December 25, 2015</span>
+									<h3 class="timeline-title">Guess where they met? At Work</h3>
+									<span class="date">March 15, 2009</span>
 								</div>
 								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<p>Ken met Bianca at work when they both worked for a call center. Yes, we can say that their love story began with "Sleepless Nights in Alabang", even though working graveyard hours - their eyes locked to each other - pounding cups of coffee & in love <3</p>
 								</div>
 							</div>
 						</li>
 						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
+							<div class="timeline-badge" style="background-image:url(images/story2.jpg);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">First Date</h3>
-									<span class="date">December 28, 2015</span>
+									<h3 class="timeline-title">Traveling Buddies-Forever</h3>
+									<span class="date">March 25, 2016</span>
 								</div>
 								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<p>Ken & Bianx are travelling souls who enjoy exploring new places. They share the joy in hiking mountains, going to beaches but they both agree that traveling is only worthwhile with each other.</p>
 								</div>
 							</div>
 						</li>
 						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
+							<div class="timeline-badge" style="background-image:url(images/story3.jpg);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">In A Relationship</h3>
-									<span class="date">January 1, 2016</span>
+									<h3 class="timeline-title">The Summit Proposal</h3>
+									<span class="date">April 22, 2019</span>
 								</div>
 								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<p>After 10 years, Ken proposed on the mountain top of Mt. Tabayoc, Benguet. He made sure all the elements are in his favor - cold weather, scenic view - before popping the big Q. Bianx said YES! and the rest of the story is for them to make..hope you can be part of it too</p>
 								</div>
 							</div>
 						</li>
@@ -251,7 +251,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<span>Our Memories</span>
 					<h2>Wedding Gallery</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<p>See a glimpse of Ken & Bianx' journey in the past 10 years of their loving relationship from the pictures taken from precious moments of their lives together.</p>					
 				</div>
 			</div>
 			<div class="row row-bottom-padded-md">
