@@ -20,8 +20,8 @@
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
 	<meta property="og:image" content="https://github.com/kdavadil/samplephp/blob/master/public/images/IMG_0213.JPG">
-	<meta property="og:title" content="iPhone" />
-<meta property="og:image" content="https://github.com/kdavadil/samplephp/blob/master/public/images/IMG_0213.JPG" />
+	<meta property="og:title" content="Wedding - KenAndBianx" />
+<meta property="og:image" content="https://scontent.fmnl4-4.fna.fbcdn.net/v/t1.0-9/408205_3959642622054_2000316769_n.jpg?_nc_cat=102&cachebreaker=sd&_nc_oc=AQktMhHHVxM-oWwglAaswOTssblDm7eecaKj9-uIlucjNtQofm28uMImiQ9cigpT-og&_nc_ht=scontent.fmnl4-4.fna&oh=d8bf9a777e1bd34d90e0a32bd6d3838d&oe=5E5E93EA" />
 
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
