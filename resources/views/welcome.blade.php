@@ -20,6 +20,8 @@
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
 	<meta property="og:image" content="https://github.com/kdavadil/samplephp/blob/master/public/images/IMG_0213.JPG">
+	<meta property="og:title" content="iPhone" />
+<meta property="og:image" content="https://github.com/kdavadil/samplephp/blob/master/public/images/IMG_0213.JPG" />
 
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
@@ -66,8 +68,8 @@
 						<li class="has-dropdown">
 							<a href="#fh5co-event">Event Details</a>
 							<ul class="dropdown">
-								<li><a href="#">Date & Time</a></li>
-								<li><a href="#">Venue</a></li>
+								<li><a href="#fh5co-couple">Date/Time</a></li>
+								<li><a href="#fh5co-event">Venue</a></li>
 								<li><a href="#">Dress Code</a></li>
 								<li><a href="https://waze.com/ul/hwdw0w2uzp">Waze Pin</a></li>
 							</ul>
@@ -107,7 +109,7 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<h2>Hello!</h2>
-					<h3>January 17th, 2021 Los Ba&ntilde;os, Laguna</h3>
+					<h3>January 17th, 2021 PHSA (UPLB Campus) Los Ba&ntilde;os, Laguna</h3>
 					<p>We invite you to celebrate our wedding</p>
 				</div>
 			</div>
