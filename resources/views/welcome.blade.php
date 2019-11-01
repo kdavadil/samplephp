@@ -505,7 +505,7 @@
 	</div> --}}
 
 	<div id="app">
-		<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_4.jpg);">
+		<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_4.jpg);height:1000px">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row animate-box">
@@ -570,7 +570,8 @@
 								<button type="submit" class="btn btn-default btn-block">SEARCH</button>
 							</div>
 						</form> --}}
-						<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScJdtIwBX14yXEVff_WAva7hsPzTjrzAavaolGLELD1r2gFYQ/viewform?embedded=true" width="700" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>	
+
+						<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScJdtIwBX14yXEVff_WAva7hsPzTjrzAavaolGLELD1r2gFYQ/viewform?embedded=true" width="100%" height="100%" onload="this.style.height=(this.contentDocument.body.scrollHeight+45) +'px';" scrolling="no" style="width:100%;min-height:1000px;border:none;overflow-y:hidden;overflow-x:hidden;" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>	
 					</div>
 				</div>
 
