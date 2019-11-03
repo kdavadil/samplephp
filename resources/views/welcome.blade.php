@@ -7,6 +7,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>KenAndBianxWedding</title>
+	<link rel="icon" href="images/Icons8-Ios7-Holidays-Wedding-Rings.ico" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
   	<!-- Facebook and Twitter integration -->
@@ -70,15 +71,15 @@
 							<ul class="dropdown">
 								<li><a href="#fh5co-couple">Date/Time</a></li>
 								<li><a href="#fh5co-event">Venue</a></li>
-								<li><a href="#">Dress Code</a></li>
+								<li><a href="#fh5co-testimonial">Dress Code</a></li>
 								<li><a href="https://waze.com/ul/hwdw0w2uzp">Waze Pin</a></li>
 							</ul>
 						</li>
 						<li><a href="#fh5co-couple-story">Our Story</a></li>
 						<li class="has-dropdown">
-							<a href="#gallery">Gallery</a>
+							<a href="#fh5co-started">Gallery</a>
 						</li>
-						<li><a href="#app">RSVP</a></li>
+						<li><a href="#fh5co-started">RSVP</a></li>
 					</ul>
 				</div>
 			</div>
@@ -207,7 +208,7 @@
 							<div class="timeline-badge" style="background-image:url(images/story1.jpg);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Guess where they met? At Work</h3>
+									<h3 class="timeline-title">Office Romance</h3>
 									<span class="date">March 15, 2009</span>
 								</div>
 								<div class="timeline-body">
@@ -399,8 +400,8 @@
 			<div class="row">
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<span>Best Wishes</span>
-						<h2>Friends Wishes</h2>
+						<span>Event Guide</span>
+						<h2>Dress Theme</h2>
 					</div>
 				</div>
 				<div class="row">
@@ -412,7 +413,7 @@
 										<figure>
 											<img src="images/couple-1.jpg" alt="user">
 										</figure>
-										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
+										<span>For the Gentlemen</span>
 										<blockquote>
 											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"</p>
 										</blockquote>
@@ -423,7 +424,7 @@
 										<figure>
 											<img src="images/couple-2.jpg" alt="user">
 										</figure>
-										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
+										<span>For the Ladies</span>
 										<blockquote>
 											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, at the coast of the Semantics, a large language ocean."</p>
 										</blockquote>
@@ -570,14 +571,9 @@
 								<button type="submit" class="btn btn-default btn-block">SEARCH</button>
 							</div>
 						</form> --}}
-
 						<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScJdtIwBX14yXEVff_WAva7hsPzTjrzAavaolGLELD1r2gFYQ/viewform?embedded=true" width="100%" height="100%" onload="this.style.height=(this.contentDocument.body.scrollHeight+45) +'px';" scrolling="no" style="width:100%;min-height:1000px;border:none;overflow-y:hidden;overflow-x:hidden;" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>	
 					</div>
 				</div>
-
-
-
-
 			</div>
 		</div>
 		
@@ -590,15 +586,15 @@
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+						<small class="block">&copy; 2019 <a href="http://kendavadilla.me/" target="_blank">KenDavadilla.me</a> All Rights Reserved.</small> 
+						<small class="block">Looking to get a similar site for your event? Contact us with the links below!</small>
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+							<li><a href="https://kendavadilla.me"><i class="icon-loader"></i></a></li>
+							<li><a href="https://www.facebook.com/Kedzo23"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://twitter.com/KenDavadilla"><i class="icon-twitter"></i></a></li>
+		
 						</ul>
 					</p>
 				</div>
@@ -638,6 +634,7 @@
 	<script src="js/custom.js"></script>
 
 	<script>
+
     // var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
 	var d = new Date();
 	d.setFullYear(2021, 01, 21);
