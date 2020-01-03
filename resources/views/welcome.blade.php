@@ -192,6 +192,62 @@
 		</div>
 	</div>
 
+	<div id="fh5co-testimonial ">
+		<div class="container">
+			<div class="row">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<span>Event Guide</span>
+						<h2>Dress Theme</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 animate-box">
+						<div class="wrap-testimony">
+							<div class="owl-carousel-fullwidth">
+								<div class="item">
+									<div class="testimony-slide active text-center">
+										<span>For the Gentlemen</span>
+										<figure>
+											<img src="images/dresscodemen.jpg" alt="user">
+										</figure>
+										<blockquote>
+											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"</p>
+										</blockquote>
+									</div>
+								</div>
+								<div class="item">
+									<div class="testimony-slide active text-center">
+										<span>For the Ladies</span>
+										<figure>
+											<img src="images/couple-2.jpg" alt="user">
+										</figure>
+									
+										<blockquote>
+											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, at the coast of the Semantics, a large language ocean."</p>
+										</blockquote>
+									</div>
+								</div>
+								<div class="item">
+									<div class="testimony-slide active text-center">
+										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
+										<figure>
+											<img src="images/couple-3.jpg" alt="user">
+										</figure>
+										
+										<blockquote>
+											<p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
+										</blockquote>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div id="fh5co-couple-story">
 		<div class="container">
 			<div class="row">
@@ -395,59 +451,6 @@
 		</div>
 	</div> --}}
 
-	<div id="fh5co-testimonial">
-		<div class="container">
-			<div class="row">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<span>Event Guide</span>
-						<h2>Dress Theme</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12 animate-box">
-						<div class="wrap-testimony">
-							<div class="owl-carousel-fullwidth">
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="images/couple-1.jpg" alt="user">
-										</figure>
-										<span>For the Gentlemen</span>
-										<blockquote>
-											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"</p>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="images/couple-2.jpg" alt="user">
-										</figure>
-										<span>For the Ladies</span>
-										<blockquote>
-											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, at the coast of the Semantics, a large language ocean."</p>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="images/couple-3.jpg" alt="user">
-										</figure>
-										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
-										<blockquote>
-											<p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-										</blockquote>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 
 	{{-- <div id="fh5co-services" class="fh5co-section-gray">
 		<div class="container">
@@ -586,13 +589,13 @@
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; 2019 <a href="http://kendavadilla.me/" target="_blank">KenDavadilla.me</a> All Rights Reserved.</small> 
+						<small class="block">&copy; 2021 <a href="http://kendavadilla.me/" target="_blank">KenDavadilla.me</a> All Rights Reserved.</small> 
 						<small class="block">Looking to get a similar site for your event? Contact us with the links below!</small>
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
 							<li><a href="https://kendavadilla.me"><i class="icon-loader"></i></a></li>
-							<li><a href="https://www.facebook.com/Kedzo23"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://www.facebook.com/kdavadilla"><i class="icon-facebook"></i></a></li>
 							<li><a href="https://twitter.com/KenDavadilla"><i class="icon-twitter"></i></a></li>
 		
 						</ul>
