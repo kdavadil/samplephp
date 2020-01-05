@@ -97,7 +97,7 @@
 							<h1>Ken &amp; Bianca</h1>
 							<h2>We Are Getting Married</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
+							<p><button class="btn btn-default btn-sm" onclick="myFunction()">Save the date</button></p>
 						</div>
 					</div>
 				</div>
@@ -192,69 +192,13 @@
 		</div>
 	</div>
 
-	<div id="fh5co-testimonial ">
-		<div class="container">
-			<div class="row">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<span>Event Guide</span>
-						<h2>Dress Theme</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12 animate-box">
-						<div class="wrap-testimony">
-							<div class="owl-carousel-fullwidth">
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<span>For the Gentlemen</span>
-										<figure>
-											<img src="images/dresscodemen.jpg" alt="user">
-										</figure>
-										<blockquote>
-											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"</p>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<span>For the Ladies</span>
-										<figure>
-											<img src="images/couple-2.jpg" alt="user">
-										</figure>
-									
-										<blockquote>
-											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, at the coast of the Semantics, a large language ocean."</p>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
-										<figure>
-											<img src="images/couple-3.jpg" alt="user">
-										</figure>
-										
-										<blockquote>
-											<p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-										</blockquote>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<div id="fh5co-couple-story">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<span>We Love Each Other</span>
 					<h2>Our Story</h2>
-					<p>Let's take a look at how it all began for the two lovebirds. Here's a look at the timeline of their romantic journey ~</p>
+					<p>Let's take a look at how it all began for the two lovebirds. A timeline of their romantic journey ~</p>
 				</div>
 			</div>
 			<div class="row">
@@ -398,6 +342,118 @@
 		</div>
 	</div>
 
+	<div id="fh5co-services" class="fh5co-section-gray">
+		<div class="container">
+			
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Prenuptial Video</h2>
+					<p>Take a look at our prenup video.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="icon-clipboard"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>We Organized Events</h3>
+							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+						</div>
+					</div>
+
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="icon-image"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Photoshoot</h3>
+							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+						</div>
+					</div>
+
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="icon-video"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Video Editing</h3>
+							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-md-6 animate-box">
+					<div class="fh5co-video fh5co-bg" style="background-image: url(images/IMG_0284.jpg); ">
+						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video2"></i></a>
+						<div class="overlay"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+		{{-- <div id="fh5co-gallery ">
+		<div class="container">
+			<div class="row">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<span>Event Guide</span>
+						<h2>Dress Theme</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 animate-box">
+						<div class="wrap-testimony">
+							<div class="owl-carousel-fullwidth">
+								<div class="item">
+									<div class="testimony-slide active text-center">
+										<span>For the Gentlemen</span>
+										<figure>
+											<img src="images/dresscodemen.jpg" alt="user">
+										</figure>
+										<blockquote>
+											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"</p>
+										</blockquote>
+									</div>
+								</div>
+								<div class="item">
+									<div class="testimony-slide active text-center">
+										<span>For the Ladies</span>
+										<figure>
+											<img src="images/couple-2.jpg" alt="user">
+										</figure>
+									
+										<blockquote>
+											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, at the coast of the Semantics, a large language ocean."</p>
+										</blockquote>
+									</div>
+								</div>
+								<div class="item">
+									<div class="testimony-slide active text-center">
+										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
+										<figure>
+											<img src="images/couple-3.jpg" alt="user">
+										</figure>
+										
+										<blockquote>
+											<p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
+										</blockquote>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> --}}
+
+
 	{{-- <div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/img_bg_5.jpg);">
 		<div class="overlay"></div>
 		<div class="container">
@@ -452,61 +508,7 @@
 	</div> --}}
 
 
-	{{-- <div id="fh5co-services" class="fh5co-section-gray">
-		<div class="container">
-			
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>We Offer Services</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-				</div>
-			</div>
 
-			<div class="row">
-				<div class="col-md-6">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-calendar"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>We Organized Events</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-						</div>
-					</div>
-
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-image"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Photoshoot</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-						</div>
-					</div>
-
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-video"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Video Editing</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="col-md-6 animate-box">
-					<div class="fh5co-video fh5co-bg" style="background-image: url(images/img_bg_3.jpg); ">
-						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video2"></i></a>
-						<div class="overlay"></div>
-					</div>
-				</div>
-			</div>
-
-			
-		</div>
-	</div> --}}
 
 	<div id="app">
 		<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_4.jpg);height:1000px">
@@ -656,19 +658,12 @@
         day: d.getDate(),
         enableUtc: false
     });
+
+function myFunction() {
+  var elmnt = document.getElementById("app");
+  elmnt.scrollIntoView();
+}
 </script>
-
-	<script>
-	 var app = new Vue({
-
-		el: '#app',
-
-		data: {
-			classname: 'color-red'
-		} 
-
-	 });
-	</script>
 
 	</body>
 </html>
