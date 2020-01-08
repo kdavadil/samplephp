@@ -246,7 +246,7 @@
 		</div>
 	</div>
 
-	<div id="fh5co-gallery" class="fh5co-section-gray">
+	{{-- <div id="fh5co-gallery" class="fh5co-section-gray">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
@@ -340,7 +340,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> --}}
 
 	<div id="fh5co-services" class="fh5co-section-gray">
 		<div class="container">
@@ -506,8 +506,6 @@
 			</div>
 		</div>
 	</div> --}}
-
-
 
 
 	<div id="app">
