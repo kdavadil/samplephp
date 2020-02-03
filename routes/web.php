@@ -1,14 +1,18 @@
 <?php
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home');
 
-Route::post('/search', function(){
- $q = Input::get('q');
- dd();
+Route::get('/register', function (){
+
+
 });
+
+Route::get('/search','HomeController@search');
+
+Route::get('/guests','HomeController@attend');

@@ -15,9 +15,9 @@ class AddAttendeesTable extends Migration
     {
         Schema::create('attendees', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('fname');
-            $table->string('lname');
-            $table->string('email')->nullable();
+            $table->string('fullname');
+            $table->integer('famID')->nullable();
+            $table->boolean('Attendance')->default(false);
             $table->timestamps();
         });
     }
