@@ -26,7 +26,7 @@ class HomeController extends Controller
 
     public function index()
     {
-        return view('welcome');
+        return view('home');
     }
 
     public function search(Request $request)
@@ -40,7 +40,7 @@ class HomeController extends Controller
         foreach ($attendees as $key => $attendee) {
         $output.='<tr>'.
         '<td>'.$attendee->fullname.'</td>'.
-        '<td>'.$attendee->famID.'</td>'.
+        '<td><button type="submit" class="btn btn-default btn-block">REGISTER</button></td>'.
         '</tr>';
                 }
         return Response($output);
@@ -49,8 +49,8 @@ class HomeController extends Controller
         }
     }
 
-    public function attend() {
-        $name = Attendee::where('fullname','davadilla')->first();
+    public function related() {
+        $relative = Attendee::where('fullname','davadilla')->get();
 
         if(! $name) {
             abort(404);

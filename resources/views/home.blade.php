@@ -1,37 +1,42 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
-
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    {{-- Vue Component  --}}
-
-                    <div id="app">
-                        <div class="form-group">
-                            <label for="fname">First Name:</label>
-                            <input type="text" name="fname" required="required" class="form-control" placeholder="Enter First Name" v-model="newItem.fname">
-                            <label for="fname">Last Name:</label>
-                            <input type="text" name="lname" required="required" class="form-control" placeholder="Enter Last Name" v-model="newItem.lname">
-                            <label for="fname">Email:</label>
-                            <input type="email" name="email" required="required" class="form-control" placeholder="Enter Email address" v-model="newItem.email">
-                            <button class="btn btn-primary" @click="createItem" >Submit</button>
-                            
-                        </div>
-                    </div>
-                    
-                </div>
+    <div class="row">
+    <div>
+    <div>
+    </div>
+    <div class="panel-body">
+        <div class="col-md-6 col-sm-12">
+            <div class="form-group">
+                <input type="text" class="form-controller form-control" id="search" name="search" placeholder="Type your full name here">
             </div>
         </div>
+    <table class="table table-bordered table-hover">
+    <thead>
+    <tr>
+    <th>Full Name</th>
+    <th>Register</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    </table>
+    <div>&nbsp;</div>
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+            <th>Family Member</th>
+            <th>Register</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+    </table>
     </div>
-</div>
+    </div>
+    </div>
+</div>                        
+    {{-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScJdtIwBX14yXEVff_WAva7hsPzTjrzAavaolGLELD1r2gFYQ/viewform?embedded=true" width="100%" height="100%" onload="this.style.height=(this.contentDocument.body.scrollHeight+45) +'px';" scrolling="no" style="width:100%;min-height:1000px;border:none;overflow-y:hidden;overflow-x:hidden;" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>	 --}}
 @endsection
