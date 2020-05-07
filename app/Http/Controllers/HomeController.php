@@ -41,7 +41,7 @@ class HomeController extends Controller
         $output.='
         <li class="list-group-item">
         <span>'.$attendee->fullname.'</span>
-        <a href="/going/'.$attendee->Id.'" class="btn btn-success btn-sm float-right mr-2">Complete</a>
+        <a href="/going/'.$attendee->id.'" class="btn btn-success btn-sm float-right mr-2">Complete</a>
         <input type="hidden" name="Name" value="'.$attendee->fullname.'">
         </li>'
         ;
