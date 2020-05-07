@@ -26,7 +26,7 @@ class HomeController extends Controller
 
     public function index()
     {
-        return view('home');
+        return view('register')->with('names', Attendee::all());
     }
 
     public function search(Request $request)
@@ -38,27 +38,27 @@ class HomeController extends Controller
         if($attendees)
             {
         foreach ($attendees as $key => $attendee) {
-        $output.='<tr>'.
-        '<td>'.$attendee->fullname.'</td>'.
-        '<td><button type="submit" class="btn btn-default btn-block">REGISTER</button></td>'.
-        '</tr>';
-                }
+        $output.='
+        <li class="list-group-item">
+        <span>'.$attendee->fullname.'</span>
+        <a href="/going/'.$attendee->Id.'" class="btn btn-success btn-sm float-right mr-2">Complete</a>
+        <input type="hidden" name="Name" value="'.$attendee->fullname.'">
+        </li>'
+        ;
+        }
         return Response($output);
 
             }
         }
     }
+    
+    public function register(Request $request, Attendee $name) {
 
-    public function related() {
-        $relative = Attendee::where('fullname','davadilla')->get();
-
-        if(! $name) {
-            abort(404);
-        }
-        return view('welcome', [
-            'name' => $name
-        ]);
-    } 
+    $data = Attendee::find($request->id);
+    //dd($data);
+    $confirm =  $data::where('Id','=',$data['Id'])->update(array('Attendance' => 1));
+    return redirect('/');
+    }
 
 }
 

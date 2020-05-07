@@ -32,7 +32,7 @@
 	<!-- Icomoon Icon Fonts-->
 	<link rel="stylesheet" href="css/icomoon.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" crossorigin="anonymous">
 
 	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="css/magnific-popup.css">
@@ -85,7 +85,14 @@
 					</div>
 				</div>        
 			</div>
-		</nav>		
+		</nav>
+		
+		@if(session()->has('success'))
+        <div class="alert alert-success">
+          {{ session()->get('success') }}
+        </div>
+	  @endif
+	  
 	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/Banner_1.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
@@ -394,8 +401,6 @@
 			</div>
 		</div>
 	</div>
-
-
 		{{-- <div id="fh5co-gallery ">
 		<div class="container">
 			<div class="row">
@@ -451,8 +456,6 @@
 			</div>
 		</div>
 	</div> --}}
-
-
 	{{-- <div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/img_bg_5.jpg);">
 		<div class="overlay"></div>
 		<div class="container">
@@ -506,25 +509,9 @@
 		</div>
 	</div> --}}
 
+	@yield('content')
+	
 
-	<div id="app">
-		<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_4.jpg);height:1000px">
-			<div class="overlay"></div>
-			<div class="container">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Are You Attending?</h2>
-						<p>Please Fill-up the form to notify you that you're attending. Thanks.</p>
-					</div>
-				</div>
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2">
-                        @yield('content')
-					</div>	
-				</div>
-			</div>
-		</div>
-	</div>
 	<footer id="fh5co-footer" role="contentinfo">
 		<div class="container">
 			<div class="row copyright">
@@ -610,7 +597,7 @@ function myFunction() {
 	url : '{{URL::to('search')}}',
 	data:{'search':$value},
 	success:function(data){
-	$('tbody').html(data);
+	$('#searchform').html(data);
 	}
 	});
 	})

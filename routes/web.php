@@ -4,15 +4,14 @@
 //     return view('welcome');
 // });
 
-Auth::routes();
+// Auth::routes();
 
-Route::get('/', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index');
 
-Route::get('/register', function (){
-
-
-});
+Route::get('/going/{id}', 'HomeController@register');
 
 Route::get('/search','HomeController@search');
 
 Route::get('/guests','HomeController@attend');
+
+Route::get('/checkname', 'HomeController@checkname');

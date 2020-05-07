@@ -14,10 +14,10 @@ class AddAttendeesTable extends Migration
     public function up()
     {
         Schema::create('attendees', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->bigIncrements('Id');
             $table->string('fullname');
-            $table->integer('famID')->nullable();
-            $table->boolean('Attendance')->default(false);
+            $table->integer('famID');
+            $table->boolean('Attendance');
             $table->timestamps();
         });
     }
