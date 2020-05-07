@@ -56,7 +56,7 @@ class HomeController extends Controller
 
     $data = Attendee::find($request->id);
     //dd($data);
-    $confirm =  $data::where('Id','=',$data['Id'])->update(array('Attendance' => 1));
+    $confirm =  $data::where('id','=',$data['id'])->update(array('Attendance' => 1));
     return redirect('/');
     }
 

@@ -13,8 +13,9 @@ class AddAttendeesTable extends Migration
      */
     public function up()
     {
+        Schema::dropIfExists('attendees');
         Schema::create('attendees', function (Blueprint $table) {
-            $table->bigIncrements('Id');
+            $table->bigIncrements('id');
             $table->string('fullname');
             $table->integer('famID');
             $table->boolean('Attendance');
