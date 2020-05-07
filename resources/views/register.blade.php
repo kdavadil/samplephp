@@ -13,7 +13,7 @@
             </div>
             <div class="row animate-box">
                 <div class="col-md-8 col-md-offset-2">
-                   <div class="card card-default">
+                   {{-- <div class="card card-default">
                        <div class="card card-header">
                         Name Search    
                         </div>   
@@ -22,9 +22,9 @@
                             <ul class="list-group my-5" id="searchform">
                             </ul>
                         </div>
-                    </div>
+                    </div> --}}
 
-                    {{-- <div class="card card-default">
+                    <div class="card card-default">
                         <div class="card card-header">
                          Name Search    
                          </div>   
@@ -33,12 +33,12 @@
                                 @foreach($names as $name)
                                 <li class="list-group-item">
                                     <span>{{$name->fullname}}</span>
-                                    <a href="/going/{{ $name->Id }}" class="btn btn-success btn-sm float-right mr-2">Complete</a>
+                                    <a href="/going/{{ $name->id }}" class="btn btn-success btn-sm float-right mr-2">Complete</a>
                                 </li>
                                 @endforeach
                              </ul>
                          </div>
-                     </div> --}}
+                     </div>
 
                 </div>
             </div>	
