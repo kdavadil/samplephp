@@ -86,17 +86,16 @@
 				</div>        
 			</div>
 		</nav>
-		
-		@if(session()->has('success'))
-        <div class="alert alert-success">
-          {{ session()->get('success') }}
-        </div>
-	  @endif
-	  
 	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/Banner_1.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
+			@if(session()->has('success'))
+			<div class="alert alert-success">
+			  {{ session()->get('success') }}
+			</div>
+			@endif
 			<div class="row">
+
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
@@ -584,7 +583,7 @@
     });
 
 function myFunction() {
-  var elmnt = document.getElementById("app");
+  var elmnt = document.getElementById("searchform");
   elmnt.scrollIntoView();
 }
 </script>

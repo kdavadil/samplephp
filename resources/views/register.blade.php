@@ -23,18 +23,25 @@
                             </ul>
                         </div>
                     </div> --}}
-
                     <div class="card card-default">
                         <div class="card card-header">
                          Name Search    
                          </div>   
                          <div class="card card-body">
-                             <ul class="list-group my-5">
+                            <input type="text" id="search" class="form-control" placeholder="Type name here" autocomplete="off">
+                             <ul class="list-group my-5" id="searchform">
                                 @foreach($names as $name)
+                                @if($name->Attendance == 0)
                                 <li class="list-group-item">
                                     <span>{{$name->fullname}}</span>
-                                    <a href="/going/{{ $name->id }}" class="btn btn-success btn-sm float-right mr-2">Complete</a>
+                                    <a href="/going/{{ $name->id }}" class="btn btn-success btn-sm float-right mr-2">Register</a>
                                 </li>
+                                @else
+                                <li class="list-group-item">
+                                    <span>{{$name->fullname}}</span>
+                                    <span class="badge badge-success">Going</span>
+                                </li>
+                                @endif
                                 @endforeach
                              </ul>
                          </div>

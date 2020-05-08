@@ -41,7 +41,7 @@ class HomeController extends Controller
         $output.='
         <li class="list-group-item">
         <span>'.$attendee->fullname.'</span>
-        <a href="/going/'.$attendee->id.'" class="btn btn-success btn-sm float-right mr-2">Complete</a>
+        <a href="/going/'.$attendee->id.'" class="btn btn-info btn-sm float-right mr-2">Register</a>
         <input type="hidden" name="Name" value="'.$attendee->fullname.'">
         </li>'
         ;
@@ -57,6 +57,7 @@ class HomeController extends Controller
     $data = Attendee::find($request->id);
     //dd($data);
     $confirm =  $data::where('id','=',$data['id'])->update(array('Attendance' => 1));
+    session()->flash('success', 'Registration sucessful. See you soon!');
     return redirect('/');
     }
 
